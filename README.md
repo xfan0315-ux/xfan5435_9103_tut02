@@ -1,23 +1,11 @@
-# xfan5435_9103_tut02
-My first repository for IDEA9103
+Quiz8
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
+Part 1: Imaging Technique Inspiration
+Technique: Interactive Particle System
+I am inspired by the interactive particle system technique, like the work done by teamLab.
 
+I think this technique is a great fit for creative coding. It's amazing how simple code can be used to create visuals that look complex and natural, like flowing water or light. What I like most is that it's interactive. People can directly play with the artwork and see it react to them in real-time. This makes the whole experience more fun and personal, and it really makes the digital art feel alive.
 
-*Italic Text* or _Italic Text_
-
-- Item 1
-- Item 2
-  - Subitem 2.1
-  - Subitem 2.2
-
-1. First Item
-2. Second Item
-3. Third Item
-
-[Link Text](https://www.google.com)
-![An image of a cat](https://placekitten.com/200/300)
-![An image of the Mona Lisa](readmeImagesMona_Lisa_by_Leonardo_da_Vinci_500_x_700.jpg.)
+Part 2: Coding Technique Exploration
+Technique: Making a Particle System in p5.js
+This effect can be coded in p5.js. The main idea is to first design a "blueprint" for a single particle, defining things like its position, speed, and color. Then, you create a big list of these particles. The main draw() loop, which runs over and over, tells each particle in the list to move a little and draw itself. When this happens very fast for hundreds of particles, it looks like a flowing system. To make it interactive, you can simply link the particles to the mouse—for example, making new particles appear at the mouse's location.
